@@ -1,0 +1,54 @@
+
+:root{
+    
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+    --border-color:#dbdbdb;
+    
+    
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes growth{
+    from{
+        transform: scale(var(--growth-from));
+    }to{
+        transform: scale(var(--growth-to));
+    }
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.grid__column-2-4{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 20%;
+}
+.grid__column-2-4-9-6{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 25%;
+}
+.grid__column-9-6{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 80%;
+}
+
+
+

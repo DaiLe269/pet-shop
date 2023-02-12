@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">  
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.1-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="heading">
+                <h1 class="heading__head">SIÊU THỊ THÚ CƯNG ONLINE</h1>
+                <h1 class="heading__contact">
+                    CẦN LÀ CÓ - MÒ LÀ THẤY
+                    <span><i class="fa-brands fa-facebook-f"></i></span>
+                    <span><i class="fa-brands fa-instagram"></i></span>
+                    <span><i class="fa-brands fa-twitter"></i></span>
+                    <span><i class="fa-regular fa-envelope"></i></span>
+                </h1>
+            </div>
+            <div class="grid">               
+                    <div class="header__with-search">
+                        <div class="header__logo">
+                            <a href="/Pet Shop/index.html">
+                                <img src="./assets/img/demo-logo.png" alt="Petshop">
+                            </a>
+                            
+                        </div>
+                        <div class="header__search">
+
+                            <input type="search" placeholder="Tìm kiếm..." class="header__search-input">
+                            <i class="fa-sharp fa-solid fa-magnifying-glass header__search-icon"></i>
+                        </div>
+                        <div class="header__cart">
+                            <div class="header__cart-price">
+
+                                <span>Giỏ hàng /</span>
+                                <span>0</span>
+                                <span class="price">đ</span>
+                            </div>
+                            <i class="fa-sharp fa-solid fa-bag-shopping header__cart-icon"></i>
+                            
+                            
+                           
+                            <div class="header__cart-contain">
+                                
+                                Chưa có sản phẩm gì trong giỏ hàng
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__navbar">
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item">
+                                <a href="">TRANG CHỦ</a>    
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="">GIỚI THIỆU</a>    
+                            </li>
+                            <li class="header__navbar-item">
+                             <a href="">SHOP CÚN CƯNG</a>        
+                            </li>
+                            <li class="header__navbar-item">
+                             <a href=""> SHOP MÈO CƯNG</a>       
+                            </li>
+                            <li class="header__navbar-item">
+                             <a href="">SHOP VẬT NUÔI KHÁC</a>        
+                            </li>
+                            <li class="header__navbar-item">
+                             <a href="">TIN TỨC</a>        
+                            </li>
+                            <li class="header__navbar-item">
+                             <a href="">MẸO VẶT</a>        
+                            </li>
+                            <li class="header__navbar-item">
+                             <a href="">LIÊN HỆ</a>        
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__img">
+                        <div class="banner_1">
+                            <img src="./assets/img/banner_s1.png" >
+                        </div>
+                        <div class="banner_s2">
+                            <img src="./assets/img/banner_s2.jpg " class="banner_2" >
+                            <img src="./assets/img/banner_s3.png " class="banner_3">
+                        </div>
+                    </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                SHOP CÚN CƯNG
+                            </h3>
+                            <ul class="category__list">
+                                <li class="category__item">Thức ăn khô</li>
+                                <li class="category__item">Chăm sóc da</li>
+                                <li class="category__item">Quần áo cho chó</li>
+                                <li class="category__item">Vật dụng ăn uống cho chó</li>
+                                <li class="category__item">Vòng cổ, dây dắt, rọ mõm</li>
+                                <li class="category__item">Bình nước</li>
+                                <li class="category__item">Giường</li>
+                                <li class="category__item">Pate</li>
+                            </ul>
+                        </nav>
+                        <img src="./assets/img/banner_1.png" class="category__img-1">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                SHOP MÈO CƯNG
+                            </h3>
+                            <ul class="category__list">
+                                <li class="category__item">Bình nước</li>
+                                <li class="category__item">Chuồng, giường, nhà, túi</li>
+                                <li class="category__item">Thức ăn</li>
+                                <li class="category__item">Vật dụng ăn uống</li>
+                                <li class="category__item">Vòng cổ, dây dắt, rọ mõm</li>
+                                <li class="category__item">Y tá & thuốc chó mèo</li>
+                              
+                            </ul>
+                        </nav>
+                        <img src="./assets/img/banner_2.png" class="category__img-1">
+                    </div>
+                    <div class="grid__column-9-6">
+                            <div class="home-product">
+                                <div class="grid__row">
+                                    <div class="grid__column-2-4-9-6 ">
+                                        <a href="#" class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://cdn.shopify.com/s/files/1/0624/1746/9697/products/hat-me-o-tuna-cho-meo-truong-thanh-vi-ca-ngu-paddy-1.jpg?v=1660972161);">
+                                            </div>
+                                            <h5 class="product__content">
+                                                Me-O Thức ăn cho mèo Pasian 400g
+                                            </h5>
+                                            <div class="product__price">
+                                                <span >140,000</span>
+                                                <span class="vnd">đ</span>
+                                            </div>
+                                            <button class="product__btn">Thêm vào giỏ hàng</button>
+                                        </a>
+                                        
+                                    </div>
+                                    <div class="grid__column-2-4-9-6 ">
+                                        <a href="#" class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/vong-co-khoa-in-dom-1-cm-232-247x296.jpg);">
+                                            </div>
+                                            <h5 class="product__content">
+                                                Vòng cổ khóa in đốm 1 cm
+                                            </h5>
+                                            <div class="product__price">
+                                                <span >100,000</span>
+                                                <span class="vnd">đ</span>
+                                            </div>
+                                            <button class="product__btn">Thêm vào giỏ hàng</button>
+                                        </a>
+                                        
+                                    </div>
+                                    <div class="grid__column-2-4-9-6 ">
+                                        <a href="#" class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/auto-draft-229-1-247x296.jpg);">
+                                            </div>
+                                            <h5 class="product__content">
+                                                Pet-star - Vòng cổ in hình 1cm
+                                            </h5>
+                                            <div class="product__price">
+                                                <span >125,000</span>
+                                                <span class="vnd">đ</span>
+                                            </div>
+                                            <button class="product__btn">Thêm vào giỏ hàng</button>
+                                        </a>
+                                        
+                                    </div>
+                                    <div class="grid__column-2-4-9-6 ">
+                                        <a href="#" class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/vali-keo-pawise-travel-trolley-227-247x296.jpg);">
+                                            </div>
+                                            <h5 class="product__content">
+                                                Vali kéo Pawise Travle
+                                            </h5>
+                                            <div class="product__price">
+                                                <span >750,000</span>
+                                                <span class="vnd">đ</span>
+                                            </div>
+                                            <button class="product__btn">Thêm vào giỏ hàng</button>
+                                        </a>
+                                        
+                                    </div>
+                                    <div class="grid__column-2-4-9-6 ">
+                                        <a href="#" class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/auto-draft-225-247x296.jpg);">
+                                            </div>
+                                            <h5 class="product__content">
+                                               Túi xách Pawise Travle
+                                            </h5>
+                                            <div class="product__price">
+                                                <span >650,000</span>
+                                                <span class="vnd">đ</span>
+                                            </div>
+                                            <button class="product__btn">Thêm vào giỏ hàng</button>
+                                        </a>
+                                        
+                                    </div>
+                                    <div class="grid__column-2-4-9-6 ">
+                                        <a href="#" class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/ca-nhoi-bong-catnip-size-60cm-223-247x296.jpg);">
+                                            </div>
+                                            <h5 class="product__content">
+                                                Cá nhồi bông Catnip size 60cm
+                                            </h5>
+                                            <div class="product__price">
+                                                <span >150,000</span>
+                                                <span class="vnd">đ</span>
+                                            </div>
+                                            <button class="product__btn">Thêm vào giỏ hàng</button>
+                                        </a>
+                                        
+                                    </div>
+                                    <div class="grid__column-2-4-9-6 ">
+                                        <a href="#" class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/3022_untitled-247x296.jpg);">
+                                            </div>
+                                            <h5 class="product__content">
+                                                O'fresh - CAT CARE 7.2kg
+                                            </h5>
+                                            <div class="product__price">
+                                                <span >95,000</span>
+                                                <span class="vnd">đ</span>
+                                            </div>
+                                            <button class="product__btn">Thêm vào giỏ hàng</button>
+                                        </a>
+                                        
+                                    </div>
+                                    <div class="grid__column-2-4-9-6 ">
+                                        <a href="#" class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/thuc-an-kho-royal-canin-kitten-10kg-215-247x296.jpg);">
+                                            </div>
+                                            <h5 class="product__content">
+                                                Thức ăn khô royal Canin Kitten 10kg
+                                            </h5>
+                                            <div class="product__price">
+                                                <span >200,000</span>
+                                                <span class="vnd">đ</span>
+                                            </div>
+                                            <button class="product__btn">Thêm vào giỏ hàng</button>
+                                        </a>
+                                        
+                                    </div>
+                                   
+                                    <div class="grid__column-2-4-9-6 ">
+                                        <a href="#" class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://cdn.shopify.com/s/files/1/0624/1746/9697/products/hat-me-o-tuna-cho-meo-truong-thanh-vi-ca-ngu-paddy-1.jpg?v=1660972161);">
+                                            </div>
+                                            <h5 class="product__content">
+                                                Me-O Thức ăn cho mèo Pasian 400g
+                                            </h5>
+                                            <div class="product__price">
+                                                <span >140,000</span>
+                                                <span class="vnd">đ</span>
+                                            </div>
+                                            <button class="product__btn">Thêm vào giỏ hàng</button>
+                                        </a>
+                                        
+                                    </div>
+                                    <div class="grid__column-2-4-9-6 ">
+                                        <a href="#" class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/vong-co-khoa-in-dom-1-cm-232-247x296.jpg);">
+                                            </div>
+                                            <h5 class="product__content">
+                                                Vòng cổ khóa in đốm 1 cm
+                                            </h5>
+                                            <div class="product__price">
+                                                <span >100,000</span>
+                                                <span class="vnd">đ</span>
+                                            </div>
+                                            <button class="product__btn">Thêm vào giỏ hàng</button>
+                                        </a>
+                                        
+                                    </div>
+                                    <div class="grid__column-2-4-9-6 ">
+                                        <a href="#" class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/auto-draft-229-1-247x296.jpg);">
+                                            </div>
+                                            <h5 class="product__content">
+                                                Pet-star - Vòng cổ in hình 1cm
+                                            </h5>
+                                            <div class="product__price">
+                                                <span >125,000</span>
+                                                <span class="vnd">đ</span>
+                                            </div>
+                                            <button class="product__btn">Thêm vào giỏ hàng</button>
+                                        </a>
+                                        
+                                    </div>
+                                    <div class="grid__column-2-4-9-6 ">
+                                        <a href="#" class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/vali-keo-pawise-travel-trolley-227-247x296.jpg);">
+                                            </div>
+                                            <h5 class="product__content">
+                                                Vali kéo Pawise Travle
+                                            </h5>
+                                            <div class="product__price">
+                                                <span >750,000</span>
+                                                <span class="vnd">đ</span>
+                                            </div>
+                                            <button class="product__btn">Thêm vào giỏ hàng</button>
+                                        </a>
+                                        
+                                    </div>
+                                    <div class="grid__column-2-4-9-6 ">
+                                        <a href="#" class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/auto-draft-225-247x296.jpg);">
+                                            </div>
+                                            <h5 class="product__content">
+                                               Túi xách Pawise Travle
+                                            </h5>
+                                            <div class="product__price">
+                                                <span >650,000</span>
+                                                <span class="vnd">đ</span>
+                                            </div>
+                                            <button class="product__btn">Thêm vào giỏ hàng</button>
+                                        </a>
+                                        
+                                    </div>
+                                    <div class="grid__column-2-4-9-6 ">
+                                        <a href="#" class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/ca-nhoi-bong-catnip-size-60cm-223-247x296.jpg);">
+                                            </div>
+                                            <h5 class="product__content">
+                                                Cá nhồi bông Catnip size 60cm
+                                            </h5>
+                                            <div class="product__price">
+                                                <span >150,000</span>
+                                                <span class="vnd">đ</span>
+                                            </div>
+                                            <button class="product__btn">Thêm vào giỏ hàng</button>
+                                        </a>
+                                        
+                                    </div>
+                                    <div class="grid__column-2-4-9-6 ">
+                                        <a href="#" class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/3022_untitled-247x296.jpg);">
+                                            </div>
+                                            <h5 class="product__content">
+                                                O'fresh - CAT CARE 7.2kg
+                                            </h5>
+                                            <div class="product__price">
+                                                <span >95,000</span>
+                                                <span class="vnd">đ</span>
+                                            </div>
+                                            <button class="product__btn">Thêm vào giỏ hàng</button>
+                                        </a>
+                                        
+                                    </div>
+                                    <div class="grid__column-2-4-9-6 ">
+                                        <a href="#" class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/thuc-an-kho-royal-canin-kitten-10kg-215-247x296.jpg);">
+                                            </div>
+                                            <h5 class="product__content">
+                                                Thức ăn khô royal Canin Kitten 10kg
+                                            </h5>
+                                            <div class="product__price">
+                                                <span >200,000</span>
+                                                <span class="vnd">đ</span>
+                                            </div>
+                                            <button class="product__btn">Thêm vào giỏ hàng</button>
+                                        </a>
+                                        
+                                    </div>
+                                    
+                                   
+                                    
+                                    
+                                </div>
+                                
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        
+            <div class="selection">
+
+                <div class="selection__header">
+                    <div class="selection__overlay">
+
+                    </div>
+                    <div class="selection__nav">
+                        <div class="selection__feedback">
+                            <img src="https://demoda.vn/wp-content/uploads/2022/03/anh-anime-buon-chat.jpg" class="selection__feedback-img">
+                            <div class="feedback__content">
+                                <div class="feedback__content-icon">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <h5 class="feedback__content-msg">
+                                    Mình là Đại Lê. Sản phẩm thú cưng chất lượng rất cao, cún nhà mình rất thích. Mình sẽ ủng hộ shop lâu dài
+                                </h5>
+                                <div class="feedback-radio">
+
+                                    <input type="radio" value="1" >
+                                    <input type="radio" value="2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feedback__receice">
+                            <lable class="feedback__receice-lable">Đăng ký nhận Email</lable>
+                            <div class="feedback__receice-email">
+                                <input type="text" placeholder="Nhập địa chỉ email của bạn" class="receice-input">
+                                <button class="receice-btn">ĐĂNG KÝ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="grid ">
+                    <div class="selection__option">
+                        <div class="option__header">
+                            
+                            TIN TỨC MỚI
+                            
+                        </div>
+                        <div class="grid__row">
+                            <div class="grid__column-2-4-9-6 option__infor">
+                                <div class="option__infor-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/517_930x398__1_.png);"></div>
+                                <h1>Ưu đãi hot hit- Mê tít ngày đông</h1>
+                                <h3> Duy nhất 13 và 14/01 tại Petcity 174 Kim Mã
+                                    Cái thời tiết vừa lạnh vừa khô thật làm cho người ta cảm thấy khó chịu đúng không Sen!  Nhưng đến Petcity trong những ngày RÉT MƯỚT, RÉT THẤU XƯƠNG thì cũng tan chảy hết nhé!!</h3>
+                            </div>
+                            <div class="grid__column-2-4-9-6 option__infor">
+                                <div class="option__infor-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/521_930x398.png);"></div>
+                                <h1>Đến mua ngay - Sắm liền tay giá sock</h1>
+                                <h3>ĐẾN KIM MÃ NGAY - SẮM LIỀN TAY GIÁ SHOCK 
+                                    Bơi trong một biển đồ ăn, quần áo với giá ưu đãi “GIẬT MÌNH” và quần áo cho Boss thì xinh KHÔNG ĐỐI THỦ !!!</h3>
+                            </div>
+                            <div class="grid__column-2-4-9-6 option__infor">
+                                <div class="option__infor-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/tang-qua-me-ly-tet-vui-het-y-276.jpg);"></div>
+                                <h1>Tặng quà mê ly - Tết vui hết ý</h1>
+                                <h3>TẶNG QUÀ MÊ LY - TẾT VUI HẾT Ý
+                                    Mua đồ cho Boss mà Sen còn được tặng quà mua trà sữa Tocotoco, vé xem phim CGV, thời trang Germe với giá cực kỳ hợp lý thì đúng là HẾT Ý!!!</h3>
+                            </div>
+                            <div class="grid__column-2-4-9-6 option__infor">
+                                <div class="option__infor-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/0401_900x603PCT-768x515.png);"></div>
+                                <h1>Vui mua ngay tặng gối liền tay</h1>
+                                <h3>VUI MUA NGAY TẶNG…! GỐI  LIỀN TAY
+                                    Đông này Boss đã có nệm rồi thì Sen đừng quên là sắm cả gối cho Boss nữa nha                                   
+                                    Từ 05-07/01/2018 với mỗi hóa đơn >500K tặng ngay 1 gối khúc xương </h3>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="selection__option selection__option2">
+                        <div class="option__header">
+                            
+                            THÔNG TIN BỔ ÍCH
+                            
+                        </div>
+                        <div class="grid__row">
+                            <div class="grid__column-2-4-9-6 option__infor2">
+                                <div class="option__infor2-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/2.png);"></div>
+                                <h1>DINH DƯỠNG</h1>
+                                <h3>Ý kiến chuyên gia về dinh dưỡng & chăm sóc cho thú cưng</h3>
+                                <button class="option__infor2-btn">TÌM HIỂU THÊM</button>
+                            </div>
+                            <div class="grid__column-2-4-9-6 option__infor2">
+                                <div class="option__infor2-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/1.png);"></div>
+                                <h1>HUẤN LUYỆN</h1>
+                                <h3>Tips phương pháp huấn luyện & giúp hiểu hành vi thú cưng</h3>
+                                <button class="option__infor2-btn">TÌM HIỂU THÊM</button>
+                            </div>
+                            <div class="grid__column-2-4-9-6 option__infor2">
+                                <div class="option__infor2-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/3.png);"></div>
+                                <h1>ĐỜI SỐNG</h1>
+                                <h3>Thông tin hữu ích từ chuẩn bị chỗ ở tới vấn đề grooming cho pet</h3>
+                                <button class="option__infor2-btn">TÌM HIỂU THÊM</button>
+                            </div>
+                            <div class="grid__column-2-4-9-6 option__infor2">
+                                <div class="option__infor2-img" style="background-image: url(https://thucung.azwebsite.vn/wp-content/uploads/2018/02/4.png);"></div>
+                                <h1>HỎI ĐÁP</h1>
+                                <h3>Hỏi – Đáp với Chuyên gia về các vấn đề liên quan tới thú cưng</h3>
+                                <button class="option__infor2-btn">TÌM HIỂU THÊM</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+               
+            </div>
+
+        </div>
+
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-4-9-6">
+                        <img src="./assets/img/demo-logo.png" class="location__img">
+                        <div class="location__content">
+                            <span>
+                                <i class="fa-solid fa-location-dot location__icon" ></i>
+                                Thành phố Hồ Chí Minh
+                            </span>
+                        </div>
+                       <div class="location__content">
+
+                           <span>Email: thucung@gmail.com</span>
+                       </div>
+                       <div class="location__content">
+
+                           <span >Hotline: 0123.456.789</span>
+                       </div>
+                    </div>
+
+                    <div class="grid__column-2-4-9-6">
+                        <div class="heading_1">
+                            <h1>BÀI VIẾT MỚI</h1>
+                        </div>
+                        <div class="news">
+                            <div class="news__content">
+                                <img src="./assets/img/i4_1.png" class="news__content-img">
+                                <h2>Ưu đãi hot hit- Mê tít ngày đông</h2>
+                            </div>
+
+                        </div>
+                        <div class="news">
+                            <div class="news__content">
+                                <img src="./assets/img/in4_2.png" class="news__content-img">
+                                <h2>Đến tay ngay - Giá sốc liền tay</h2>
+                            </div>
+
+                        </div>
+                        <div class="news news_3">
+                            <div class="news__content">
+                                <img src="./assets/img/in4_3.jpg" class="news__content-img">
+                                <h2>Tặng quà MeLy - Tết vui hết ý</h2>
+                            </div>
+
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="grid__column-2-4-9-6">
+                        <div class="heading_2">
+                            <h1>HỖ TRỢ</h1>
+                            
+                        </div>
+                        <ul class="support-list">
+                            <li class="support-item">
+                                <a href="#">Về chúng tôi</a>
+                            </li>
+                            <li class="support-item">
+                                <a href="#">Trung tâm hỗ trợ</a>
+                            </li>
+                            <li class="support-item">
+                                <a href="#">Chính sách bảo mật</a>
+                            </li>
+                            <li class="support-item">
+                                <a href="#">Chính sách thanh toán</a>
+                            </li>
+                            <li class="support-item">
+                                <a href="#">Chính sách giao hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-4-9-6">
+                        <div class="heading_3">
+                            <h1>FACEBOOK</h1>
+                            
+                        </div>
+                        <img src="./assets/img/noname.jpg" class="fb__img">
+                    </div>
+
+
+                </div>
+            </div>
+            
+            <div class="footer__foot-content">
+                <h1> © Bản quyền thuộc về Pet Shop </h1>
+               
+                <h1>Thiết kế bởi </h1>
+                <h1>Đại Lê</h1>
+            </div>
+        </footer>
+        
+    </div>
+</body>
+</html>
